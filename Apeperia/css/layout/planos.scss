@@ -1,0 +1,76 @@
+/** Planos **/
+.planos {
+    background: #1e2c35;
+  }
+  
+  .planos h2 {
+    color: $corbranca;
+  }
+  
+  .plano {
+    background: $corbranca;
+    width: 18em;
+    display: inline-block;
+    margin: 1em 0 0 1.4em;
+    padding-bottom: 2em;
+  }
+  
+  .plano:hover {
+    background: #dedede;
+  }
+  
+  .plano h3 {
+    color: $corbranca;
+    font-size: 1.8em;
+    background: $corpadrao;
+    text-align: center;
+    height: 2em;
+    padding-top: .6em;
+    margin-top: 0;
+  }
+  
+  .plano div {
+    text-align: center;
+    color: $corpadrao;
+    font-size: 2.75em;
+  }
+  
+  .itens-plano {
+    padding-left: 1.2em;
+  
+    li {
+      font-size: 1em;
+      list-style: none;
+      border-bottom: 1px solid #acacac;
+      padding: .5em;
+      width: 14.8em;
+  
+      &:last-child {
+        border: 0;
+      }
+    }
+  
+    span {
+      float: right;
+    }
+  
+  }
+  
+  .plano button {
+    background: $corpadrao;
+    border: 0;
+    color: $corbranca;
+    width: 220px;
+    height: 38px;
+    font-size: 1.2em;
+    @include border-radius(10px);
+    @include box-shadow(rgba(0,0,0, 0.4) 0 3px 6.65px);
+    margin-left: 2em;
+  }
+  
+  @include all-sprite-sprites;
+  .sprite-icone-check, .sprite-icone-x {
+    width: 18px;
+    height: 18px;
+  }
+  
