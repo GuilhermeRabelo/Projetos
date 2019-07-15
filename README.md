@@ -10,7 +10,7 @@ Alguns projetos que eu desenvolvi para testar minhas habilidades e conhecimentos
     - Uma simples lista de afazeres usando a biblioteca jQuery.
 - [Museu Doce](https://guilhermerabelo.github.io/Projetos/Museum/index.html) - Bootstrap 4
     - Um museu fictício feito de doce para por em prática a responsividade do bootstrap.
-- [Typer Game](https://guilhermerabelo.github.io/Projetos/Museum/index.html) - jQuery/AJAX
+- [Typer Game](https://guilhermerabelo.github.io/Projetos/Typer/principal.html) - jQuery/AJAX
     - Um jogo para testar sua velocidade digitando. Você deve entrar pelo console na pasta servidor e dar o comando:
     ```
     npm start
